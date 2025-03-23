@@ -1,0 +1,72 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    color: #333;
+}
+
+/* Main title */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input field and button styling */
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Focus effects */
+input:focus, button:focus {
+    outline: none;
+    border-color: #5c6bc0;
+}
+
+/* Button style */
+button {
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+/* Result text styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Color feedback for messages */
+#result {
+    color: #ff4d4d;
+}
+
+#result.green {
+    color: #4caf50;
+}
+
+#result.orange {
+    color: #ff9800;
+}
+
